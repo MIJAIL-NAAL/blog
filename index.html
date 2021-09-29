@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        -->
+    <title>Blog en CSS</title>
+    <link rel="icon" type="favicon/x-icon" href="img/css3.svg">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Inicio de Cabecera-->
+    <header id="header">
+        <div class="wrap">
+            <div id="logo">
+                <span class="gear">R</span>
+                <h3>BLOG</h3>
+            </div>
+
+            <nav id="menu">
+                
+                <!--<div class="toggle icon">p</div>-->
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="#">ARTÍCULOS</a></li>
+                    <li><a href="#">INFORMACIÓN</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+
+            <nav id="small-menu">
+                <input type="checkbox" id="show-menu">
+                <label for="show-menu"><a class="icon">²</a></label>
+                
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="#">ARTÍCULOS</a></li>
+                    <li><a href="#">INFORMACIÓN</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Fin de la Cabecera-->
+
+
+
+    <section class="wrap wrap-content">
+
+        <div id="banner">
+            <h1>DESARROLLO WEB</h1>
+        </div>
+
+        <!-- Inicio Barra lateral -->
+        <div class="clearfix"></div>
+
+        <div class="sidebar-container">
+            
+            <input type="checkbox" id="show-sidebar">
+            <label for="show-sidebar" class="show">
+                <a class="icon">(<span class="text-sidebar"> Sidebar </span>)</a>
+            </label>
+
+            <aside id="lateral">
+                <h3>BUSCAR</h3>
+                <div id="search">
+                    <form action="">
+                        <input type="text">
+                        <input type="button" value="L" class="icon">
+                    </form>
+                </div>
+
+                <h3>LOGIN</h3>
+                <div id="login" class="aside-box">
+                    <form action="">
+                        <label id="user" for="input-user" class="icon">U</label>
+                        <input type="email" id="input-user" name="">
+
+                        <label id="password" for="input-password" class="icon">w</label>
+                        <input type="password" id="input-password" name="">
+
+                        <input type="submit" value="Entrar">
+                        <input type="reset" value="Limpiar">
+
+                        <a href="#">Registrate aquí</a>
+                        <a href="#">¿Has olvidado tu contraseña?</a>
+                    </form>
+                </div>
+
+                <h3>REDES SOCIALES</h3>
+                <div id="social" class="aside-box">
+
+                    <div class="social">
+                        <a href="https://twitter.com/" target="_blank" class="icon">t</a>
+                        <p class="overlay">
+                            Twitter
+                        </p>
+                        <a href="https://twitter.com/" target="_blank" class="icon arrow">j</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="https://www.facebook.com/" target="_blank" class="icon">f</a>
+                        <p class="overlay">
+                            Facebook
+                        </p>
+                        <a href="https://www.facebook.com/" target="_blank" class="icon arrow">j</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="https://www.google.com/" target="_blank" class="icon">g</a>
+                        <p class="overlay">
+                            Google
+                        </p>
+                        <a href="https://www.google.com/" target="_blank" class="icon arrow">j</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="https://www.youtube.com/" target="_blank" class="icon">y</a>
+                        <p class="overlay">
+                            YouTube
+                        </p>
+                        <a href="https://www.youtube.com/" target="_blank" class="icon arrow">j</a>
+                    </div>
+
+                </div>
+
+                <h3>DESARROLLADO CON</h3>
+                <div id="sponsors" class="aside-box">
+                    <p>
+                        <img src="img/html5.svg" alt="Creado con HTML">
+                    </p>
+                    <p>
+                        <img src="img/css3.svg" alt="Creado con CSS">
+                    </p>
+                </div>
+            </aside>
+        </div>
+        <!-- Fin Barra lateral -->
+
+
+        <!-- Inicio Artículos -->
+
+        <section id="articles">
+
+            <h2>Artículos Recientes</h2>
+            <div class="clearfix"></div>
+            <article>
+                <div class="data">
+                    <span>Fecha: 01-01-2022</span>
+                    <span>Categoría: - -</span>
+                </div>
+                <h4>
+                    <a href="#">Título del artículo</a>
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="">consequat</a>.
+                </p>
+            </article>
+            <article>
+                <div class="data">
+                    <span>Fecha: 01-01-2022</span>
+                    <span>Categoría: - -</span>
+                </div>
+                <h4>
+                    <a href="#">Título del artículo</a>
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="">consequat</a>.
+                </p>
+            </article>
+            <article>
+                <div class="data">
+                    <span>Fecha: 01-01-2022</span>
+                    <span>Categoría: - -</span>
+                </div>
+                <h4>
+                    <a href="#">Título del artículo</a>
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="">consequat</a>.
+                </p>
+            </article>
+        </section>
+        <!-- Fin Artículos -->
+
+        <div class="clearfix"></div>
+
+        <section>
+
+            <!-- Inicio Tarjetas -->
+            <div id="cards">
+
+                <div class="card">
+                    <p class="icon">H</p>
+                    <h2 class="category">Desarrollo WEB</h2>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa consequuntur dolore blanditiis,
+                        enim qui architecto nostrum placeat nam!
+                    </p>
+                </div>
+
+                <div class="card">
+                    <p class="icon">I</p>
+                    <h2 class="category">Imágenes</h2>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa consequuntur dolore blanditiis,
+                        enim qui architecto nostrum placeat nam!
+                    </p>
+                </div>
+
+                <div class="card">
+                    <p class="icon">M</p>
+                    <h2 class="category">Video</h2>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa consequuntur dolore blanditiis,
+                        enim qui architecto nostrum placeat nam!
+                    </p>
+                </div>
+
+            </div>
+            <!-- Fin Tarjetas -->
+
+        </section>
+
+    </section>
+
+
+    <!-- Inicio PIE DE PÁGINA -->
+    <div class="clearfix"></div>
+    <footer id="footer">
+        <div class="wrap">
+
+            <div class="info info-hidden">
+
+                <h5>responsive</h5>
+                <p id="browsers">
+                    <a href="#">
+                        <img src="img/firefox.png" alt="Firefox" title="Firefox">
+                    </a>
+                    <a href="#">
+                        <img src="img/chrome.png" alt="Chrome" title="Chrome">
+                    </a>
+                    <a href="#">
+                        <img src="img/yandex.svg" alt="Yandex" title="Yandex">
+                    </a>
+                    <a href="#">
+                        <img src="img/android.png" alt="Android" title="Android">
+                    </a>
+                    <a href="#">
+                        <img src="img/ios.png" alt="Apple" title="Apple">
+                    </a>
+                </p>
+
+                <h5>AUTOR</h5>
+                <p class="blinker">&copy; MIJAIL NAAL WEB | All right reserved</p>
+
+            </div>
+
+            <div id="menu_footer" class="info">
+                <h5>MENÚ</h5>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <span></span>
+                    <li><a href="#">ARTÍCULOS</a></li>
+                    <li><a href="#">INFORMACIÓN</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                    <span></span>
+                </ul>
+            </div>
+            <!---->
+            <div id="location" class="info">
+                <h5>Mapa</h5>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.47214812847!2d-99.14338868509326!3d19.435199986882786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92b75aa014d%3A0x17d810d20da6e8cf!2z0JTQstC-0YDQtdGGINC40LfRj9GJ0L3Ri9GFINC40YHQutGD0YHRgdGC0LI!5e0!3m2!1sru!2smx!4v1624921107650!5m2!1sru!2smx"
+                    width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="last">
+            <p class="blinker last">&copy; MIJAIL NAAL WEB | All right reserved</p>
+        </div>
+
+
+    </footer>
+    <!-- Fin PIE DE PÁGINA -->
+
+</body>
+
+</html>
